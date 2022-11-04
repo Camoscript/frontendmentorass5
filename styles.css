@@ -1,0 +1,428 @@
+@charset "UTF-8";
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap");
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  background: hsl(0, 0%, 90%);
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container {
+  position: relative;
+  margin: 100px auto 0px;
+  /* border: 2px solid red; */
+  width: 1045px;
+}
+
+/* TO MARK DIFFERENT PARTS
+
+/* DANIEL */
+.daniel {
+  border-radius: 10px;
+  padding: 12px;
+  position: relative;
+  background: hsl(263, 55%, 52%);
+  width: 500px;
+  height: 250px;
+  /* outline:2px solid fuschia; */
+}
+
+.daniel .head {
+  font-size: 11px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  /* border: 1px solid black; */
+  display: flex;
+}
+.dan-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 100%);
+}
+.daniel .head .name .name-bold {
+  color: hsl(0, 0%, 100%);
+}
+.daniel .head .name .name-light {
+  color: hsl(0, 0%, 100%);
+  opacity: 70%;
+}
+
+.daniel .main {
+  margin: 15px auto;
+  font-size: 15px;
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+}
+.daniel .footer {
+  opacity: 50%;
+  color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  position: relative;
+  line-height: 16px;
+  font-size: 12px;
+  /* outline: 3px solid hotpink; */
+}
+.daniel .quote {
+  height: 80px;
+  width: 80px;
+  top: 0;
+  right: 50px;
+  position: absolute;
+  /* z-index: -1; */
+}
+
+/* JONATHAN */
+.jonathan {
+  border-radius: 10px;
+  padding: 15px;
+  background: hsl(217, 19%, 35%);
+  height: 250px;
+  width: 240px;
+  /* outline: 2px solid red; */
+}
+.jonathan .head {
+  font-size: 11px;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.jonathan .head .name .name-bold {
+  color: hsl(0, 0%, 100%);
+}
+.jonathan .head .name .name-light {
+  color: hsl(0, 0%, 100%);
+  opacity: 70%;
+}
+
+.jonathan .main {
+  margin: 15px auto;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  /* border: 1px solid black; */
+}
+.jonathan .footer {
+  
+  opacity: 50%;
+  color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  position: relative;
+  line-height: 16px;
+  font-size: 12px;
+  /* outline: 3px solid hotpink; */
+}
+
+.dan-jon {
+  justify-content: space-between;
+  width: 770px;
+  /* outline: 2px solid firebrick; */
+  display: flex;
+}
+
+/* JEANETTE  */
+.jeanette {
+  border-radius: 10px;
+  padding: 20px;
+  background: hsl(0, 0%, 100%);
+  height: 250px;
+  width: 240px;
+  /* outline: 2px solid red; */
+}
+.jeanette .head {
+  font-size: 11px;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  /* outline: 1px solid black; */
+  display: flex;
+}
+
+.jeanette .head .name .name-bold {
+  color: hsl(217, 19%, 35%);
+}
+.jeanette .head .name .name-light {
+  color: hsl(217, 19%, 35%);
+  opacity: 70%;
+}
+
+.jeanette .main {
+  margin: 15px auto;
+  font-size: 15px;
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  /* outline: 1px solid black; */
+}
+.jeanette .footer {
+  opacity: 50%;
+  color: hsl(217, 19%, 35%);
+  margin-top: 30px;
+  position: relative;
+  line-height: 16px;
+  font-size: 12px;
+  /* outline: 3px solid hotpink; */
+}
+
+
+/* PATRICK */
+.patrick {
+  border-radius: 10px;
+  padding: 12px;
+  position: relative;
+  background: hsl(219, 29%, 14%);
+  width: 500px;
+  height: 250px;
+  /* outline:2px solid green; */
+}
+
+.patrick .head {
+  font-size: 11px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  /* outline: 1px solid black; */
+  display: flex;
+}
+
+.patrick .head .name .name-bold {
+  color: hsl(0, 0%, 100%);
+}
+.patrick .head .name .name-light {
+  color: hsl(0, 0%, 100%);
+  opacity: 70%;
+}
+
+.patrick .main {
+  /* outline: 2px solid firebrick; */
+  margin: 15px auto;
+  font-size: 15px;
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+}
+.patrick .footer {
+  opacity: 50%;
+  color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  position: relative;
+  line-height: 16px;
+  font-size: 12px;
+  /* outline: 3px solid hotpink; */
+}
+.pat-jean {
+  margin: 25px 0px 0px 0px ;
+  justify-content: space-between;
+  width: 770px;
+  /* outline: 2px solid firebrick; */
+  display: flex;
+}
+
+
+/* KIRA */
+.kira {
+  top: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 10px;
+  padding: 15px;
+  background: hsl(0, 0%, 100%);
+  height: 525px;
+  width: 240px;
+  /* outline: 2px solid red; */
+}
+.kira .head {
+  font-size: 11px;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.kira .head .name .name-bold {
+  color: hsl(217, 19%, 35%);
+}
+.kira .head .name .name-light {
+  color: hsl(217, 19%, 35%);
+  opacity: 70%;
+}
+
+.kira .main {
+  margin: 15px auto;
+  font-size: 15px;
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  /* border: 1px solid black; */
+}
+.kira .footer {
+  
+  opacity: 50%;
+  color: hsl(217, 19%, 35%);
+  margin-top: 10px;
+  position: relative;
+  line-height: 16px;
+  font-size: 12px;
+  /* outline: 3px solid hotpink; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========
+MEDIA QUERIES
+=============== */
+@media screen and (max-width:375px) {
+  /* ===========
+  BODY SELECTOR
+  ================ */
+  body{
+    background: hsl(0, 0%, 90%);
+  }
+
+  /* ===========
+  THE CONTAINER
+  ================ */
+  .container{
+    margin: 40px auto 4px;
+    width: 320px;
+  }
+
+  /* ===========
+  DAN-JON
+  The container houising the daniel and jonathan cards
+  ================ */
+  .dan-jon{
+    display: block;
+  }
+
+  /* ===========
+  PAT-JEAN
+  The container houising the PATRICK and JEANETTE cards
+  ================ */
+  .pat-jean{
+    display: block;
+  }
+
+  /* ============
+  ALL CARDS SELSCTOR
+  ============== */
+  .kira, .daniel, .patrick, .jeanette, .jonathan{
+    width: 320px;
+    border-radius: 5px;
+  }
+
+
+/* ============
+  DANIEL
+  ============== */  
+  .daniel{
+    margin-bottom: 20px;
+    height: 400px;
+  }
+  .daniel .quote{
+    width: 70px;
+    right: 20px;
+  }
+  .daniel .main {
+    font-size: 15px;
+  }
+
+  /* ============
+  JONATHAN
+  ============== */
+  .jonathan{
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .jonathan .main {
+    margin: 10px auto;
+    /* border: 1px solid black; */
+  }
+  /* .jonathan .footer {
+    outline: 3px solid hotpink;
+  } */
+
+
+  .jeanette {
+    padding: 20px;
+    height: 210px;
+    margin: 0px 0px 20px 0px;
+    /* outline: 2px solid red; */
+  }
+
+  /* .jeanette .main {
+  } */
+
+  /* .jeanette .footer{
+  } */
+
+
+  .patrick {
+    height: 360px;
+    margin-bottom: 20px;
+  }
+/* .patrick .main {
+ 
+} */
+/* .patrick .footer {
+  
+} */
+  
+
+
+
+
+/* KIRA */
+.kira {
+  position: relative;
+  padding: 15px;
+  background: hsl(0, 0%, 100%);
+  height: 400px;
+  /* outline: 2px solid red; */
+}
+/* .kira .head {
+} */
+
+
+/* .kira .main {
+  
+} */
+.kira .footer {
+  
+  opacity: 50%;
+  color: hsl(217, 19%, 35%);
+  margin-top: 10px;
+  position: relative;
+  line-height: 16px;
+  font-size: 12px;
+  /* outline: 3px solid hotpink; */
+}
+
+}
