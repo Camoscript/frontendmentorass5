@@ -10,6 +10,16 @@
   box-sizing: border-box;
 }
 
+/* ATTRIBUTION */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /* BODY */
 body {
   background: hsl(0, 0%, 90%);
@@ -17,6 +27,9 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
+/* =====
+ENTIRE CARD CONTAINER
+========= */
 .container {
   position: relative;
   margin: 100px auto 0px;
@@ -399,7 +412,9 @@ MEDIA QUERIES
 
 
 
-/* KIRA */
+/* ===========
+KIRA
+=========== */
 .kira {
   position: relative;
   padding: 15px;
