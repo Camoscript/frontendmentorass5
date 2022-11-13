@@ -34,6 +34,6 @@ right:0;
 ## Author
 
 - Website - Tobi Emmanuel
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/camoscript1)
+- Frontend Mentor - [@camoscript](https://www.frontendmentor.io/profile/camoscript)
+- Twitter - [@camoscript1](https://www.twitter.com/camoscript1)
 
